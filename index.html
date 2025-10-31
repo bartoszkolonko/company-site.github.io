@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ProfessionalWeld - Profesjonalne usługi spawalnicze. Spawanie TIG, MIG/MAG, spawanie aluminium. Konstrukcje stalowe, balustrady, bramy.">
+    <meta name="keywords" content="spawanie, spawacz, konstrukcje stalowe, spawanie TIG, spawanie MIG, spawanie aluminium, balustrady, bramy">
+    <title>ProfessionalWeld - Profesjonalne Usługi Spawalnicze</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="images/icons/logo.svg" alt="ProfessionalWeld Logo" class="logo-img">
+                    <span class="logo-text">ProfessionalWeld</span>
+                </div>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Strona główna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">O nas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Usługi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#calculator" class="nav-link">Kalkulator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reviews" class="nav-link">Opinie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Kontakt</a>
+                    </li>
+                </ul>
+                
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="hero-grid"></div>
+            <div class="hero-content">
+                <div class="container">
+                    <!-- Badge -->
+                    <div class="hero-badge">
+                        <div class="hero-badge-dot"></div>
+                        Certyfikowani specjaliści
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Profesjonalne<br>
+                        Usługi<br>
+                        <span class="highlight">Spawalnicze</span>
+                    </h1>
+                    
+                    <!-- Features List -->
+                    <ul class="hero-features">
+                        <li class="hero-feature">
+                            <svg class="hero-feature-icon" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>20+ lat doświadczenia w branży</span>
+                        </li>
+                        <li class="hero-feature">
+                            <svg class="hero-feature-icon" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Najwyższa jakość wykonania</span>
+                        </li>
+                        <li class="hero-feature">
+                            <svg class="hero-feature-icon" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Terminowe realizacje projektów</span>
+                        </li>
+                    </ul>
+                    
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Wycena projektu</a>
+                        <a href="#portfolio" class="btn btn-secondary">Zobacz portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O naszej firmie</h2>
+                <p class="section-subtitle">Poznaj nasze wartości i doświadczenie</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>ProfessionalWeld - Twój partner w spawaniu</h3>
+                    <p>
+                        Jesteśmy zespołem doświadczonych spawaczy z pasją do precyzji i jakości. 
+                        Od ponad 15 lat realizujemy projekty spawalnicze dla klientów indywidualnych 
+                        i firm w całej Polsce.
+                    </p>
+                    <p>
+                        Specjalizujemy się w spawaniu różnych materiałów metodami TIG, MIG/MAG oraz 
+                        spawaniu aluminium. Nasze doświadczenie obejmuje konstrukcje stalowe, 
+                        balustrady, bramy, oraz elementy przemysłowe.
+                    </p>
+                    <div class="about-image">
+                        <img src="images/company/welder-at-work.png" alt="Profesjonalny spawacz przy pracy" class="welder-image">
+                    </div>
+                </div>
+                
+                <div class="about-values">
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h4>Jakość</h4>
+                        <p>Najwyższa jakość wykonania zgodna z normami spawalniczymi</p>
+                    </div>
+                    
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>Terminowość</h4>
+                        <p>Dotrzymujemy ustalonych terminów realizacji projektów</p>
+                    </div>
+                    
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>Zaufanie</h4>
+                        <p>Budujemy długoterminowe relacje z naszymi klientami</p>
+                    </div>
+                    
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h4>Doświadczenie</h4>
+                        <p>15 lat praktyki w różnorodnych projektach spawalniczych</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nasze usługi</h2>
+                <p class="section-subtitle">Kompleksowe rozwiązania spawalnicze</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Spawanie TIG</h3>
+                    <p>Precyzyjne spawanie metodą TIG dla aluminium, stali nierdzewnej i innych materiałów wymagających najwyższej jakości.</p>
+                    <ul class="service-features">
+                        <li>Aluminium</li>
+                        <li>Stal nierdzewna</li>
+                        <li>Stal węglowa</li>
+                        <li>Elementy cienkie</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Spawanie MIG/MAG</h3>
+                    <p>Wydajne spawanie konstrukcji stalowych, idealnie nadające się do projektów wymagających szybkiej realizacji.</p>
+                    <ul class="service-features">
+                        <li>Konstrukcje stalowe</li>
+                        <li>Elementy grube</li>
+                        <li>Spawanie ciągłe</li>
+                        <li>Duże projekty</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Balustrady i ogrodzenia</h3>
+                    <p>Projektowanie i wykonywanie balustrad, ogrodzeń i bram stalowych o wysokiej jakości i estetyce.</p>
+                    <ul class="service-features">
+                        <li>Balustrady wewnętrzne</li>
+                        <li>Balustrady zewnętrzne</li>
+                        <li>Bramy wjazdowe</li>
+                        <li>Ogrodzenia</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Konstrukcje stalowe</h3>
+                    <p>Wykonywanie złożonych konstrukcji stalowych dla przemysłu i budownictwa zgodnie z normami.</p>
+                    <ul class="service-features">
+                        <li>Hale przemysłowe</li>
+                        <li>Konstrukcje dachowe</li>
+                        <li>Platformy robocze</li>
+                        <li>Elementy architektoniczne</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Naprawy i remonty</h3>
+                    <p>Profesjonalne naprawy spawalnicze elementów stalowych, maszyn i urządzeń przemysłowych.</p>
+                    <ul class="service-features">
+                        <li>Naprawa maszyn</li>
+                        <li>Remont konstrukcji</li>
+                        <li>Wzmocnienia</li>
+                        <li>Modyfikacje</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certyfikowane spawanie</h3>
+                    <p>Spawanie zgodne z normami EN ISO dla projektów wymagających certyfikacji i badań nieniszczących.</p>
+                    <ul class="service-features">
+                        <li>Normy EN ISO</li>
+                        <li>Badania NDT</li>
+                        <li>Dokumentacja WPS</li>
+                        <li>Projekty przemysłowe</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nasze realizacje</h2>
+                <p class="section-subtitle">Zobacz nasze najlepsze projekty</p>
+            </div>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Wszystkie</button>
+                <button class="filter-btn" data-filter="konstrukcje">Konstrukcje</button>
+                <button class="filter-btn" data-filter="balustrady">Balustrady</button>
+                <button class="filter-btn" data-filter="bramy">Bramy</button>
+                <button class="filter-btn" data-filter="przemysl">Przemysł</button>
+            </div>
+            
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Portfolio items will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section class="calculator" id="calculator">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kalkulator wyceny</h2>
+                <p class="section-subtitle">Oszacuj koszt swoich prac spawalniczych</p>
+            </div>
+            
+            <div class="calculator-container">
+                <form class="calculator-form" id="calculator-form">
+                    <div class="form-group">
+                        <label for="work-type">Rodzaj pracy:</label>
+                        <select id="work-type" name="work-type" required>
+                            <option value="">Wybierz rodzaj pracy</option>
+                            <option value="tig" data-rate="80">Spawanie TIG (80 zł/h)</option>
+                            <option value="mig" data-rate="60">Spawanie MIG/MAG (60 zł/h)</option>
+                            <option value="konstrukcja" data-rate="70">Konstrukcje stalowe (70 zł/h)</option>
+                            <option value="balustrada" data-rate="65">Balustrady (65 zł/h)</option>
+                            <option value="naprawa" data-rate="75">Naprawy (75 zł/h)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="work-hours">Szacowany czas pracy (godziny):</label>
+                        <input type="number" id="work-hours" name="work-hours" min="1" max="200" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="material-cost">Koszt materiałów (zł):</label>
+                        <input type="number" id="material-cost" name="material-cost" min="0" step="0.01">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="complexity">Poziom skomplikowania:</label>
+                        <select id="complexity" name="complexity" required>
+                            <option value="">Wybierz poziom</option>
+                            <option value="1" data-multiplier="1">Proste (standardowe)</option>
+                            <option value="1.2" data-multiplier="1.2">Średnie (+20%)</option>
+                            <option value="1.5" data-multiplier="1.5">Skomplikowane (+50%)</option>
+                            <option value="1.8" data-multiplier="1.8">Bardzo skomplikowane (+80%)</option>
+                        </select>
+                    </div>
+                    
+                    <button type="button" class="btn btn-primary" onclick="calculateCost()">
+                        Oblicz koszt
+                    </button>
+                </form>
+                
+                <div class="calculator-result" id="calculator-result">
+                    <h3>Szacunkowy koszt projektu</h3>
+                    <div class="cost-breakdown">
+                        <div class="cost-item">
+                            <span class="cost-label">Roboczogodziny:</span>
+                            <span class="cost-value" id="labor-cost">0 zł</span>
+                        </div>
+                        <div class="cost-item">
+                            <span class="cost-label">Materiały:</span>
+                            <span class="cost-value" id="material-cost-display">0 zł</span>
+                        </div>
+                        <div class="cost-item">
+                            <span class="cost-label">Dodatek za skomplikowanie:</span>
+                            <span class="cost-value" id="complexity-cost">0 zł</span>
+                        </div>
+                        <div class="cost-item total">
+                            <span class="cost-label">Łączny koszt:</span>
+                            <span class="cost-value" id="total-cost">0 zł</span>
+                        </div>
+                    </div>
+                    <p class="cost-note">
+                        * Podana cena ma charakter orientacyjny. Ostateczna wycena zostanie przedstawiona po oględzinach projektu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Opinie klientów</h2>
+                <p class="section-subtitle">Zobacz co mówią o nas nasi klienci</p>
+            </div>
+            
+            <div class="reviews-grid" id="reviews-grid">
+                <!-- Reviews will be loaded dynamically -->
+            </div>
+            
+            <div class="google-reviews-link">
+                <a href="#" class="btn btn-secondary" target="_blank">
+                    <i class="fab fa-google"></i>
+                    Zobacz wszystkie opinie Google
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skontaktuj się z nami</h2>
+                <p class="section-subtitle">Jesteśmy gotowi na Twój projekt</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telefon</h4>
+                            <p>+48 123 456 789</p>
+                            <p>+48 987 654 321</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>biuro@professionalweld.pl</p>
+                            <p>spawanie@professionalweld.pl</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Adres</h4>
+                            <p>ul. Przemysłowa 15</p>
+                            <p>00-001 Warszawa</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Godziny pracy</h4>
+                            <p>Pn-Pt: 7:00 - 16:00</p>
+                            <p>So: 8:00 - 14:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Imię i nazwisko *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Telefon</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Rodzaj usługi</label>
+                                <select id="service" name="service">
+                                    <option value="">Wybierz usługę</option>
+                                    <option value="tig">Spawanie TIG</option>
+                                    <option value="mig">Spawanie MIG/MAG</option>
+                                    <option value="konstrukcje">Konstrukcje stalowe</option>
+                                    <option value="balustrady">Balustrady</option>
+                                    <option value="bramy">Bramy i ogrodzenia</option>
+                                    <option value="naprawa">Naprawy</option>
+                                    <option value="inne">Inne</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Wiadomość *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Opisz swój projekt..."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <span class="checkmark"></span>
+                                Wyrażam zgodę na przetwarzanie danych osobowych zgodnie z <a href="#" class="privacy-link">polityką prywatności</a> *
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Wyślij wiadomość
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map-container" id="map-container">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/icons/logo.svg" alt="ProfessionalWeld Logo">
+                        <span>ProfessionalWeld</span>
+                    </div>
+                    <p class="footer-description">
+                        Profesjonalne usługi spawalnicze z ponad 15-letnim doświadczeniem. 
+                        Jakość, terminowość i zaufanie to nasze główne wartości.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Usługi</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Spawanie TIG</a></li>
+                        <li><a href="#services">Spawanie MIG/MAG</a></li>
+                        <li><a href="#services">Konstrukcje stalowe</a></li>
+                        <li><a href="#services">Balustrady</a></li>
+                        <li><a href="#services">Naprawy spawalnicze</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Firma</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">O nas</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#reviews">Opinie</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                        <li><a href="#">Polityka prywatności</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +48 123 456 789</p>
+                        <p><i class="fas fa-envelope"></i> biuro@professionalweld.pl</p>
+                        <p><i class="fas fa-map-marker-alt"></i> ul. Przemysłowa 15, 00-001 Warszawa</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-divider"></div>
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 ProfessionalWeld. Wszystkie prawa zastrzeżone.</p>
+                    <p>Strona wykonana przez <a href="#" class="developer-link">Software One</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="loading-spinner">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/calculator.js"></script>
+    <script src="js/maps.js"></script>
+    <script src="js/contact.js"></script>
+    
+    <!-- Google Maps API -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+    
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+</html>

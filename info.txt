@@ -1,0 +1,93 @@
+# 🌐 Project Context – Business Website
+
+---
+## 🧭 Business Goals
+- Stworzenie profesjonalnej strony internetowej dla wybranej branży usługowej
+- Zwiększenie widoczności firmy w internecie i pozyskanie nowych klientów
+- Przedstawienie oferty, wartości firmy i budowanie zaufania klientów
+- Umożliwienie łatwego kontaktu z firmą i wstępnej wyceny usług
+- Prezentacja portfolio/galerii prac oraz opinii zadowolonych klientów
+
+---
+## ⚙️ Technical Stack
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Maps Integration**: Google Maps API
+- **Reviews**: Google Reviews API integration
+- **Contact Form**: EmailJS lub podobne rozwiązanie do wysyłki maili
+- **Hosting**: GitHub Pages (repository: company-site.github.io)
+- **Responsive Design**: Mobile-first approach
+- **Performance**: Optymalizacja obrazów, lazy loading
+
+---
+
+## 🧩 Architecture & Structure
+```
+/
+├── index.html                 # Strona główna
+├── css/
+│   ├── styles.css            # Główne style
+│   └── responsive.css        # Media queries
+├── js/
+│   ├── main.js              # Główna logika
+│   ├── calculator.js        # Kalkulator wyceny
+│   ├── maps.js              # Integracja Google Maps
+│   └── contact.js           # Formularz kontaktowy
+├── images/
+│   ├── gallery/             # Zdjęcia portfolio
+│   ├── company/             # Zdjęcia firmy
+│   └── icons/               # Ikony i logo
+├── data/
+│   └── reviews.json         # Dane opinii klientów
+└── README.md
+```
+
+**Sekcje strony:**
+1. Header z nawigacją
+2. Hero section z opisem firmy
+3. O nas - wartości firmy
+4. Usługi/Oferta
+5. Portfolio/Galeria
+6. Kalkulator wyceny
+7. Opinie klientów
+8. Kontakt z mapą
+9. Footer
+
+---
+## 🔒 Project Assumptions
+- Strona będzie responsywna (desktop, tablet, mobile)
+- Integracja z Google Maps wymaga API key
+- Opinie klientów pobierane z Google Reviews
+- Kalkulator będzie prosty, oparty na JavaScript
+- Formularz kontaktowy wysyła maile bez backendu
+- Wszystkie treści w języku polskim
+- Optymalizacja SEO dla lokalnych wyszukiwań
+- Zgodność z RODO (polityka prywatności)
+
+---
+## 🧠 Scope
+### Core Features:
+- ✅ Responsywna strona główna z opisem firmy
+- ✅ Sekcja "O nas" z wartościami firmy
+- ✅ Galeria zdjęć/portfolio z lightbox
+- ✅ Integracja Google Maps z lokalizacją firmy
+- ✅ Sekcja opinii klientów (Google Reviews)
+- ✅ Dane kontaktowe (telefon, email, adres)
+- ✅ Prosty kalkulator wyceny usług
+
+### Extensions:
+- 🔄 Formularz kontaktowy z automatycznym wysyłaniem maili
+- 🔄 Panel administracyjny do zarządzania treścią
+- 🔄 Blog/aktualności firmowe
+- 🔄 Rezerwacja online terminów
+
+---
+## ⚖️ Out of Scope
+- System CMS (np. WordPress)
+- Backend z bazą danych
+- System płatności online
+- Zaawansowana analityka (beyond Google Analytics)
+- Wielojęzyczność
+- Integracja z mediami społecznościowymi (poza podstawowymi linkami)
+- Zaawansowane animacje i efekty wizualne
+- PWA (Progressive Web App) functionality
+

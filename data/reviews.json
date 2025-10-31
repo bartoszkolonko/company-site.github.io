@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "name": "Jan Kowalski",
+        "rating": 5,
+        "text": "Profesjonalna obsługa i wysokiej jakości spawanie. Balustrada wykonana perfekcyjnie według projektu. Terminowo i w bardzo dobrej cenie. Polecam każdemu!",
+        "date": "2024-10-15",
+        "service": "Balustrady",
+        "verified": true,
+        "source": "Google",
+        "location": "Warszawa"
+    },
+    {
+        "id": 2,
+        "name": "Anna Nowak",
+        "rating": 5,
+        "text": "Szybka realizacja projektu bramy automatycznej. Bardzo solidne wykonanie, estetyczne i funkcjonalne. Konkurencyjna cena i profesjonalne doradztwo. Gorąco polecam!",
+        "date": "2024-10-10",
+        "service": "Bramy i ogrodzenia",
+        "verified": true,
+        "source": "Google",
+        "location": "Pruszków"
+    },
+    {
+        "id": 3,
+        "name": "Marek Wiśniewski",
+        "rating": 5,
+        "text": "Konstrukcja stalowa hali wykonana zgodnie z projektem i normami. Terminowość, profesjonalizm i solidność wykonania na najwyższym poziomie. Współpraca przebiegła bez problemów.",
+        "date": "2024-09-28",
+        "service": "Konstrukcje stalowe",
+        "verified": true,
+        "source": "Google",
+        "location": "Legionowo"
+    },
+    {
+        "id": 4,
+        "name": "Katarzyna Zielińska",
+        "rating": 5,
+        "text": "Spawanie TIG aluminium - perfekcyjne wykonanie! Naprawiono uszkodzoną felgę w moim samochodzie. Efekt przewyższył moje oczekiwania. Bardzo dziękuję za profesjonalną usługę.",
+        "date": "2024-09-20",
+        "service": "Spawanie TIG",
+        "verified": true,
+        "source": "Google",
+        "location": "Warszawa"
+    },
+    {
+        "id": 5,
+        "name": "Tomasz Nowicki",
+        "rating": 5,
+        "text": "Kompleksowa naprawa spawalnicza maszyny przemysłowej. Szybka diagnoza problemu i efektywne rozwiązanie. Maszyna działa jak nowa. Polecam firmę wszystkim przedsiębiorcom.",
+        "date": "2024-09-12",
+        "service": "Naprawy spawalnicze",
+        "verified": true,
+        "source": "Google",
+        "location": "Piaseczno"
+    },
+    {
+        "id": 6,
+        "name": "Michał Kowalczyk",
+        "rating": 5,
+        "text": "Wykonanie balustrady wewnętrznej na schody. Pomysłowy design, solidne wykonanie i bardzo estetyczny efekt końcowy. Prace zostały wykonane czysto i dokładnie.",
+        "date": "2024-08-30",
+        "service": "Balustrady",
+        "verified": true,
+        "source": "Google",
+        "location": "Konstancin-Jeziorna"
+    },
+    {
+        "id": 7,
+        "name": "Agnieszka Lewandowska",
+        "rating": 5,
+        "text": "Brama garażowa dwuskrzydłowa z napędem - wykonana idealnie! Cicha praca, niezawodność i estetyczny wygląd. Montaż przeprowadzony profesjonalnie i w ustalonym terminie.",
+        "date": "2024-08-25",
+        "service": "Bramy i ogrodzenia",
+        "verified": true,
+        "source": "Google",
+        "location": "Otwock"
+    },
+    {
+        "id": 8,
+        "name": "Paweł Jankowski",
+        "rating": 5,
+        "text": "Platforma robocza dla naszej firmy - konstrukcja bardzo solidna i bezpieczna. Wszystkie wymogi BHP zostały spełnione. Współpraca układała się bardzo dobrze.",
+        "date": "2024-08-18",
+        "service": "Konstrukcje stalowe",
+        "verified": true,
+        "source": "Google",
+        "location": "Marki"
+    },
+    {
+        "id": 9,
+        "name": "Monika Wójcik",
+        "rating": 5,
+        "text": "Spawanie MIG/MAG - naprawa ogrodzenia po awarii. Bardzo szybka interwencja, profesjonalne wykonanie i uczciwa cena. Polecam każdemu, kto potrzebuje niezawodnego spawacza.",
+        "date": "2024-08-10",
+        "service": "Naprawy spawalnicze",
+        "verified": true,
+        "source": "Google",
+        "location": "Ząbki"
+    },
+    {
+        "id": 10,
+        "name": "Robert Mazur",
+        "rating": 5,
+        "text": "Konstrukcja daszka nad wejściem - projekt i wykonanie na najwyższym poziomie. Solidna robota, która na pewno posłuży przez lata. Bardzo profesjonalna obsługa.",
+        "date": "2024-07-28",
+        "service": "Konstrukcje stalowe",
+        "verified": true,
+        "source": "Google",
+        "location": "Warszawa"
+    },
+    {
+        "id": 11,
+        "name": "Ewa Krawczyk",
+        "rating": 5,
+        "text": "Balustrada zewnętrzna na taras - piękne wykonanie! Połączenie funkcjonalności z estetyką. Stal odporna na warunki atmosferyczne. Jestem bardzo zadowolona z efektu końcowego.",
+        "date": "2024-07-15",
+        "service": "Balustrady",
+        "verified": true,
+        "source": "Google",
+        "location": "Józefów"
+    },
+    {
+        "id": 12,
+        "name": "Grzegorz Adamski",
+        "rating": 5,
+        "text": "Spawanie certyfikowane dla naszej firmy przemysłowej. Wszystkie wymagania norm zostały spełnione, dokumentacja kompletna. Bardzo profesjonalne podejście do zadania.",
+        "date": "2024-07-08",
+        "service": "Spawanie certyfikowane",
+        "verified": true,
+        "source": "Google",
+        "location": "Raszyn"
+    },
+    {
+        "id": 13,
+        "name": "Magdalena Sikora",
+        "rating": 5,
+        "text": "Naprawa bramy wjazdowej - szybko, sprawnie i w rozsądnej cenie. Brama działa jak nowa, problem został rozwiązany na długo. Polecam serdecznie!",
+        "date": "2024-06-30",
+        "service": "Naprawy spawalnicze",
+        "verified": true,
+        "source": "Google",
+        "location": "Grodzisk Mazowiecki"
+    },
+    {
+        "id": 14,
+        "name": "Jacek Górski",
+        "rating": 5,
+        "text": "Konstrukcja wiaty garażowej - solidne wykonanie i dobra organizacja pracy. Wszystko zgodnie z ustaleniami, terminowo i czysto. Bardzo zadowolony z współpracy.",
+        "date": "2024-06-22",
+        "service": "Konstrukcje stalowe",
+        "verified": true,
+        "source": "Google",
+        "location": "Błonie"
+    },
+    {
+        "id": 15,
+        "name": "Dorota Król",
+        "rating": 5,
+        "text": "Spawanie TIG elementów ze stali nierdzewnej - perfekcyjne wykonanie! Bardzo estetyczne spoiny, precyzyjne dopasowanie. Profesjonalista swojego fachu. Gorąco polecam!",
+        "date": "2024-06-15",
+        "service": "Spawanie TIG",
+        "verified": true,
+        "source": "Google",
+        "location": "Wilanów"
+    }
+]

@@ -1,0 +1,522 @@
+/* ===== RESPONSIVE DESIGN - MOBILE FIRST ===== */
+
+/* Extra Large devices (large desktops, 1200px and up) */
+@media (max-width: 1400px) {
+    .container {
+        padding: 0 1.5rem;
+    }
+    
+    .hero-title {
+        font-size: 3rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1200px) {
+    :root {
+        --container-max-width: 100%;
+        --container-padding: 1.5rem;
+    }
+    
+    .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    
+    .about-content {
+        gap: var(--spacing-xl);
+    }
+    
+    .calculator-container {
+        gap: var(--spacing-xl);
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 992px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+    
+    .about-values {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .calculator-container {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+    
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+    }
+    
+    .footer-bottom-content {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        text-align: center;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) {
+    :root {
+        --container-padding: 1rem;
+        --spacing-xxl: 3rem;
+        --spacing-xl: 2rem;
+    }
+    
+    /* Navigation */
+    .nav-menu {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background: rgba(255, 255, 255, 0.98);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: var(--spacing-xxl);
+        transition: left var(--transition-normal);
+        box-shadow: var(--shadow-lg);
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
+    
+    .nav-menu .nav-item {
+        margin: var(--spacing-sm) 0;
+    }
+    
+    .nav-link {
+        font-size: 1.2rem;
+        padding: var(--spacing-sm);
+    }
+    
+    .hamburger {
+        display: flex;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+    
+    /* Hero */
+    .hero {
+        min-height: 80vh;
+        background-attachment: scroll;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: var(--spacing-lg);
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing-sm);
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 280px;
+        justify-content: center;
+    }
+    
+    /* Services */
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .service-card {
+        padding: var(--spacing-lg);
+    }
+    
+    /* Portfolio */
+    .portfolio-filters {
+        gap: var(--spacing-xs);
+    }
+    
+    .filter-btn {
+        padding: var(--spacing-xs) var(--spacing-sm);
+        font-size: 0.9rem;
+    }
+    
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    /* About */
+    .about-values {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .welder-image {
+        height: 250px;
+    }
+    
+    .value-item {
+        padding: var(--spacing-md);
+    }
+    
+    /* Reviews */
+    .reviews-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    /* Calculator */
+    .calculator-form,
+    .calculator-result {
+        padding: var(--spacing-lg);
+    }
+    
+    /* Contact */
+    .contact-item {
+        flex-direction: column;
+        text-align: center;
+        gap: var(--spacing-sm);
+    }
+    
+    .contact-form-container {
+        padding: var(--spacing-lg);
+    }
+    
+    .map-container {
+        height: 300px;
+    }
+    
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+        text-align: center;
+    }
+    
+    .footer-logo {
+        justify-content: center;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+    :root {
+        --container-padding: 0.75rem;
+        --spacing-xxl: 2rem;
+        --spacing-xl: 1.5rem;
+        --spacing-lg: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1rem;
+    }
+    
+    /* Hero */
+    .hero-title {
+        font-size: 1.8rem;
+        line-height: 1.3;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.95rem;
+    }
+    
+    /* Services */
+    .service-card {
+        padding: var(--spacing-md);
+    }
+    
+    .service-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .service-icon i {
+        font-size: 1.5rem;
+    }
+    
+    .service-card h3 {
+        font-size: 1.3rem;
+    }
+    
+    /* About */
+    .about-text h3 {
+        font-size: 1.5rem;
+    }
+    
+    .about-text p {
+        font-size: 1rem;
+    }
+    
+    .value-item {
+        padding: var(--spacing-sm);
+    }
+    
+    .welder-image {
+        height: 200px;
+        border-radius: var(--border-radius-md);
+    }
+    
+    .value-icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .value-icon i {
+        font-size: 1.2rem;
+    }
+    
+    /* Portfolio */
+    .portfolio-filters {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .filter-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    /* Calculator */
+    .calculator-form,
+    .calculator-result {
+        padding: var(--spacing-md);
+    }
+    
+    .calculator-result h3 {
+        font-size: 1.3rem;
+    }
+    
+    .cost-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-xs);
+    }
+    
+    .cost-item.total {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    /* Contact */
+    .contact-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .contact-icon i {
+        font-size: 1rem;
+    }
+    
+    .contact-form-container {
+        padding: var(--spacing-md);
+    }
+    
+    /* Back to top button */
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* Extra extra small devices (very small phones, less than 400px) */
+@media (max-width: 400px) {
+    :root {
+        --container-padding: 0.5rem;
+    }
+    
+    .hero-title {
+        font-size: 1.6rem;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+    }
+    
+    .nav-logo {
+        font-size: 1.3rem;
+    }
+    
+    .logo-img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.95rem;
+    }
+    
+    .service-card,
+    .value-item,
+    .review-card {
+        padding: var(--spacing-sm);
+    }
+    
+    .calculator-form,
+    .calculator-result,
+    .contact-form-container {
+        padding: var(--spacing-sm);
+    }
+}
+
+/* Landscape orientation for small devices */
+@media (max-width: 768px) and (orientation: landscape) {
+    .hero {
+        min-height: 100vh;
+    }
+    
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .nav-menu {
+        height: calc(100vh - 60px);
+        top: 60px;
+        padding-top: var(--spacing-lg);
+    }
+    
+    .nav-menu .nav-item {
+        margin: var(--spacing-xs) 0;
+    }
+    
+    .nav-link {
+        font-size: 1rem;
+        padding: var(--spacing-xs);
+    }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(rgba(26, 26, 26, 0.7), rgba(44, 62, 80, 0.8)), 
+                          url('../images/company/hero-bg.png');
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    /* This can be implemented if dark mode is desired */
+    /* Currently maintaining light theme for better brand visibility */
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    html {
+        scroll-behavior: auto;
+    }
+    
+    .hero-background {
+        background-attachment: scroll;
+    }
+}
+
+/* Print styles */
+@media print {
+    .header,
+    .hero,
+    .calculator,
+    .footer,
+    .back-to-top,
+    .loading-spinner {
+        display: none !important;
+    }
+    
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+    
+    .section-title {
+        page-break-after: avoid;
+    }
+    
+    .service-card,
+    .value-item,
+    .review-card {
+        page-break-inside: avoid;
+    }
+    
+    body {
+        font-size: 12pt;
+        line-height: 1.4;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+    }
+}
+
+/* Focus management for accessibility */
+@media (max-width: 768px) {
+    .nav-menu.active .nav-link:first-child {
+        margin-top: var(--spacing-lg);
+    }
+    
+    .hamburger:focus {
+        outline: 2px solid var(--primary-color);
+        outline-offset: 2px;
+    }
+    
+    .nav-link:focus {
+        outline: 2px solid var(--primary-color);
+        outline-offset: 2px;
+        background: rgba(255, 107, 53, 0.1);
+        border-radius: var(--border-radius-sm);
+    }
+}

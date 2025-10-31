@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="industrialGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#industrialGradient)"/>
+  
+  <!-- Industrial tank/container -->
+  <ellipse cx="200" cy="220" rx="120" ry="15" fill="#34495e" opacity="0.6"/>
+  <rect x="80" y="120" width="240" height="100" fill="#ecf0f1" stroke="#34495e" stroke-width="3"/>
+  <ellipse cx="200" cy="120" rx="120" ry="15" fill="#bdc3c7" stroke="#34495e" stroke-width="3"/>
+  
+  <!-- Pipes and connections -->
+  <rect x="50" y="160" width="20" height="8" fill="#ff6b35"/>
+  <rect x="70" y="158" width="15" height="12" fill="#f39c12"/>
+  <rect x="315" y="160" width="25" height="8" fill="#ff6b35"/>
+  <rect x="340" y="158" width="15" height="12" fill="#f39c12"/>
+  
+  <!-- Gauge/meter -->
+  <circle cx="200" cy="170" r="25" fill="#34495e" stroke="#ff6b35" stroke-width="3"/>
+  <circle cx="200" cy="170" r="15" fill="#2c3e50"/>
+  <line x1="200" y1="170" x2="210" y2="160" stroke="#f39c12" stroke-width="3"/>
+  
+  <!-- Welding sparks effect -->
+  <circle cx="150" cy="100" r="2" fill="#ffff00" opacity="0.9"/>
+  <circle cx="155" cy="95" r="1.5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="145" cy="105" r="1" fill="#f39c12" opacity="0.7"/>
+  <circle cx="250" cy="100" r="2" fill="#ffff00" opacity="0.9"/>
+  <circle cx="255" cy="95" r="1.5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="245" cy="105" r="1" fill="#f39c12" opacity="0.7"/>
+  
+  <!-- Title -->
+  <rect x="0" y="250" width="400" height="50" fill="rgba(0,0,0,0.7)"/>
+  <text x="200" y="280" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-weight="bold" font-size="18">Przemysł</text>
+</svg>
